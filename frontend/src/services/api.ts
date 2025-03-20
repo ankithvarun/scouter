@@ -1,9 +1,10 @@
 import axios from 'axios';
 
-const API_BASE_URL = "https://game-day-production.up.railway.app/api"
-console.log(API_BASE_URL);
+const API_BASE_URL = "http://localhost:7123/api"
+
+console.log('Using API URL:', API_BASE_URL);
 if (!API_BASE_URL) {
-  console.error('REACT_APP_API_URL environment variable is not set');
+  console.error('API_BASE_URL is not set');
 }
 
 const api = axios.create({
