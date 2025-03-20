@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = "http://localhost:7123/api"
+const API_BASE_URL = "http://localhost:5000/api"
 
 console.log('Using API URL:', API_BASE_URL);
 if (!API_BASE_URL) {
